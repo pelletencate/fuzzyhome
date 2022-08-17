@@ -1,0 +1,187 @@
+/* styles:app/client.imba */
+body:not(#_) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0rem;
+  width: 100%;
+  height: 100%;
+  background: #20222f;
+  font-family: var(--font-sans-serif,sans-serif);
+  font-weight: 1;
+  user-select: none;
+}
+.eq-af:not(#_):not(#_) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vw;
+  max-width: 700px;
+  max-height: 80vh;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10vh;
+}
+.fatal.eq_af:not(#_) {
+  color: hsla(213.33, 96.92%, 87.25%, 100%);
+}
+.ref--main-input.eq_af:not(#_) {
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid hsla(270.00, 95.24%, 75.29%, 100%);
+  background: hsla(270.00, 95.24%, 75.29%, 10%);
+  color: hsla(211.70, 96.36%, 78.43%, 100%);
+  caret-color: hsla(211.70, 96.36%, 78.43%, 100%);
+  outline: none;
+  border-radius: 5px;
+}
+.ref--main-input.eq_af:not(#_)::placeholder {
+  font-size: 10px;
+  color: hsla(211.70, 96.36%, 78.43%, 100%);
+}
+.loading-container.eq_af:not(#_) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: hsla(270.00, 95.24%, 75.29%, 10%);
+  border-radius: 5px;
+  color: hsla(240.00, 5.03%, 64.90%, 100%);
+}
+.settings-container.eq_af:not(#_) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: hsla(270.00, 95.24%, 75.29%, 10%);
+  border-radius: 5px;
+}
+.settings-button.eq_af:not(#_) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background: none;
+  color: hsla(270.00, 95.24%, 75.29%, 100%);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.middle-button.eq_af:not(#_) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  color: hsla(270.00, 95.24%, 75.29%, 100%);
+  cursor: pointer;
+  font-size: 20px;
+}
+.disabled.eq_af:not(#_) {
+  color: hsla(240.00, 5.03%, 64.90%, 100%);
+  cursor: default;
+  user-select: none;
+}
+.links.eq_af:not(#_) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  width: 100%;
+  overflow-y: auto;
+}
+.link.eq_af:not(#_) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: hsla(211.70, 96.36%, 78.43%, 100%);
+}
+.link-left.eq_af:not(#_) {
+  display: flex;
+  flex: 1;
+}
+.selected.eq_af:not(#_) {
+  background: hsla(211.70, 96.36%, 78.43%, 5%);
+}
+a.eq_af:not(#_) {
+  text-decoration: none;
+}
+.link-icon.eq_af:not(#_) {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.name.eq_af:not(#_) {
+  text-transform: capitalize;
+  font-size: 20px;
+  overflow-wrap: anywhere;
+}
+.link-right.eq_af:not(#_) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+}
+.delete.eq_af:not(#_) {
+  opacity: 0;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 3px;
+  color: hsla(270.00, 95.24%, 75.29%, 100%);
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid hsla(270.00, 95.24%, 75.29%, 50%);
+}
+.selected.eq_af .delete.eq_af:not(#_) {
+  opacity: 100;
+}
+.frequency.eq_af:not(#_) {
+  font-size: 15px;
+}
+.eq-aj:not(#_):not(#_):not(#_) {
+  display: none;
+}
+.eq-ao:not(#_):not(#_):not(#_) {
+  margin-top: -10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.eq-av:not(#_):not(#_):not(#_) {
+  text-transform: none;
+}
+.eq-aw:not(#_):not(#_):not(#_) {
+  justify-content: flex-end;
+}
+.eq-bi:not(#_):not(#_):not(#_) {
+  text-transform: none;
+}
+.eq-bj:not(#_):not(#_):not(#_) {
+  justify-content: flex-end;
+}
+app-tag {
+  display: block;
+}
+/* chunk:end */
